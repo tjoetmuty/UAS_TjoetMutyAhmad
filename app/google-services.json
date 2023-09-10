@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "1005515438336",
+    "project_id": "maps-api-2662f",
+    "storage_bucket": "maps-api-2662f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005515438336:android:991f66a5f6a89a079d9be5",
+        "android_client_info": {
+          "package_name": "com.amanda.mapsAPI"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005515438336-5c2mej3fesliua2hld46vv7rc7i9l0r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4wDXy531Z9boylOrh9QuIjUzHPLenon4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005515438336-5c2mej3fesliua2hld46vv7rc7i9l0r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005515438336:android:703c6c01ea5422489d9be5",
+        "android_client_info": {
+          "package_name": "com.codingwithmitch.googlemaps2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005515438336-5c2mej3fesliua2hld46vv7rc7i9l0r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4wDXy531Z9boylOrh9QuIjUzHPLenon4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005515438336-5c2mej3fesliua2hld46vv7rc7i9l0r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005515438336:android:9d146aa32c94ee529d9be5",
+        "android_client_info": {
+          "package_name": "com.codingwithmitch.googlemaps2018.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005515438336-5c2mej3fesliua2hld46vv7rc7i9l0r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4wDXy531Z9boylOrh9QuIjUzHPLenon4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005515438336-5c2mej3fesliua2hld46vv7rc7i9l0r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

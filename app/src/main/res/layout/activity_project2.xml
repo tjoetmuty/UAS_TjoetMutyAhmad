@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".project2">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="355dp"
+        android:layout_height="69dp"
+        android:background="#650D0D"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Project 2"
+        android:textColor="#FBFAFA"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="192dp"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.445">
+
+        <TextView
+            android:id="@+id/linear"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Linear Layout"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/relative"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Relative Layout"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/table"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Table Layout"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/absolute"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Absolute Layout"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/frame"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Frame Layout"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="192dp"
+        android:layout_height="550dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.269">
+
+        <TextView
+            android:id="@+id/list"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="List View"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/grid"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Grid View"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/control"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Control"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/eventhandling"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Event Handling"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/custom"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Custom Component"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
